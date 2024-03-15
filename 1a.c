@@ -65,16 +65,16 @@ int main() {
         return 1; 
     }
 
-    // Read calendar data from the keyboard
+    
     readCalendar(calendar, size);
 
-    // Display calendar details
+    
     printf("\nCalendar Details:\n");
     displayCalendar(calendar, size);
 
-    // Free memory allocated for the calendar
+    
     freeCalendar(calendar, size);
     free(calendar);
 
-    return 0; // Exit the program successfully
+    return 0; 
 }
